@@ -1,0 +1,12 @@
+1. Created Makefile
+
+2. Created myarr.c
+screenshot
+
+3. Updated myarr.c
+screenshot
+
+4.
+One-liner:
+cat /proc/cpuinfo | grep MHz | grep -oP '[\d.]+$' > cpu_freqs.txt
+

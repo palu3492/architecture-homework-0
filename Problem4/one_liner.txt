@@ -1,0 +1,2 @@
+cat /proc/cpuinfo | grep MHz | grep -oP '[\d.]+$' > cpu_freqs.txt
+
