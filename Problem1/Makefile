@@ -3,7 +3,7 @@ CC=gcc
 all: myarr.o
 	$(CC) myarr.o -o myarr
 	
-hello: myarr.c
+myarr: myarr.c
 	$(CC) -c myarr.c
 	
 clean:

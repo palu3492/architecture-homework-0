@@ -1,10 +1,10 @@
 CC=gcc
 
-all: myarr.o
-	$(CC) myarr.o -o myarr -lm
+all: mycat.o
+	$(CC) mycat.o -o mycat -lm
 	
-hello: myarr.c
-	$(CC) -c myarr.c
+mycat: mycat.c
+	$(CC) -c mycat.c
 	
 clean:
-	rm myarr.o myarr
+	rm mycat.o mycat
